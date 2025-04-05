@@ -201,9 +201,10 @@ footer {
     text-align: center;
     font-size: 1.6rem;
     color: #ffffff;
-    position: absolute;
+    position: fixed; /* Alterado de absolute para fixed */
     bottom: 0;
     left: 0;
+    z-index: 10; /* Garante que o footer fique acima de outros elementos */
 }
 
 /* ESTILIZAÇÃO DOS LINKS NO RODAPÉ */
